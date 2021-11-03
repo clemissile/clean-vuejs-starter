@@ -1,4 +1,4 @@
-# clean-vuejs-starter
+# vue-app
 
 ## Project setup
 ```

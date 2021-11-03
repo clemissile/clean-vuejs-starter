@@ -1,18 +1,18 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 
-import ui from '@/store/modules/ui.js'
+import villes from './modules/villes'
 
 Vue.use(Vuex)
 
 export default new Vuex.Store({
-	state: {
-	},
-	mutations: {
-	},
-	actions: {
-	},
-	modules: {
-		ui
-	}
+  state: {
+  },
+  mutations: {
+  },
+  actions: {
+  },
+  modules: {
+    villes
+  }
 })
