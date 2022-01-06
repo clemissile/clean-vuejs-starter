@@ -11,13 +11,12 @@
 
 <!-- PROJECT LOGO -->
 <br />
+
 <div align="center">
 	<a href="https://github.com/clemissile/clean-vuejs-starter">
-		<img src="images/logo.png" alt="Logo" width="80" height="80">
+		<img src="src/assets/logo.png" alt="Logo" width="80" height="80">
 	</a>
-
 	<h3 align="center">clean-vuejs-starter</h3>
-
 	<p align="center">
 		A ✨ _clean_ ✨ VueJs 3 project starter !
 		<br />
