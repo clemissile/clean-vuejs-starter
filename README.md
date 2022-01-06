@@ -93,6 +93,11 @@ There are many great VueJs starters available on GitHub; however, I didn't find 
    npm run serve
    ```
 
+### Prepare for production
+
+```sh
+npm run build
+```
 
 <!-- CONTRIBUTING -->
 ## Contributing

@@ -1,9 +1,23 @@
 {
   "name": "clean-vuejs-starter",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "author": {
+    "name": "Clément Ganivet"
+  },
+  "licence": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clemissile/clean-vuejs-starter"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "components",
+    "tailwindcss",
+    "axios"
+  ],
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
