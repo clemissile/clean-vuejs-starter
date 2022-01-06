@@ -18,7 +18,7 @@
 	</a>
 	<h3 align="center">clean-vuejs-starter</h3>
 	<p align="center">
-		A ✨ _clean_ ✨ VueJs 3 project starter !
+		A ✨ <i>clean</i> ✨ VueJs 3 project starter !
 		<br />
 		<br />
 		<a href="https://github.com/clemissile/clean-vuejs-starter/issues">Report Bug</a>
