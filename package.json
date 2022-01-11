@@ -2,7 +2,9 @@
   "name": "clean-vuejs-starter",
   "version": "1.0.0",
   "author": {
-    "name": "Clément Ganivet"
+    "name": "Clément Ganivet",
+    "email": "ganivetclement@gmail.com",
+    "url": "https://www.olinalab.fr/"
   },
   "licence": "MIT",
   "repository": {
