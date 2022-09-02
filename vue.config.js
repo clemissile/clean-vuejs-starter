@@ -1,13 +1,13 @@
-const path = require('path')
+const path = require('path');
 
 module.exports = {
-	css: {
-		loaderOptions: {
-			scss: {
-				prependData: `
+  css: {
+    loaderOptions: {
+      scss: {
+        prependData: `
 					@import "@/assets/scss/_variables.scss";
-				`
-			}
-		}
-	}
-}
+				`,
+      },
+    },
+  },
+};

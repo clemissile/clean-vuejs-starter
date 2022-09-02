@@ -1,13 +1,13 @@
 <div id="top"></div>
 
 <!-- PROJECT SHIELDS -->
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -26,7 +26,6 @@
 		<a href="https://github.com/clemissile/clean-vuejs-starter/issues">Request Feature</a>
 	</p>
 </div>
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -52,28 +51,28 @@
 	</ol>
 </details>
 
-
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 There are many great VueJs starters available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one.
 
 ### Built With
 
-* [VueJs 3](https://v3.vuejs.org/)
-* [Vue Router](https://router.vuejs.org/)
-* [Vuex](https://vuex.vuejs.org/)
-* [Dart Sass](https://sass-lang.com/dart-sass)
-* [TailwindCSS](https://tailwindcss.com/)
-* [Axios](https://github.com/axios/axios)
-
+- [VueJs 3](https://v3.vuejs.org/)
+- [Vue Router](https://router.vuejs.org/)
+- [Vuex](https://vuex.vuejs.org/)
+- [Dart Sass](https://sass-lang.com/dart-sass)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Axios](https://github.com/axios/axios)
 
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 ### Prerequisites
 
-* npm
+- npm
   ```sh
   npm install npm@latest -g
   ```
@@ -88,7 +87,7 @@ There are many great VueJs starters available on GitHub; however, I didn't find 
    ```sh
    npm install
    ```
-4. Launch the project
+3. Launch the project
    ```sh
    npm run serve
    ```
@@ -99,7 +98,28 @@ There are many great VueJs starters available on GitHub; however, I didn't find 
 npm run build
 ```
 
+<!-- Prettier -->
+
+## Prettier
+
+This project use [Prettier](https://prettier.io/) as code formatter. The format to use is defined in the `.prettierrc.js` file.
+
+### Prerequisites
+
+Download and enable the Prettier extension for VS Code. You can find it [just here](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode).
+
+### Define Prettier as default formatter
+
+Go to `File > Preferences > Settings` (or hit `CTRL + ,` on Windows or `COMMAND + ,` on macOS) and search for _default formatter_ then select **Prettier - Code formatter** under **Editor: Default Formatter**.
+
+### Enable format on save
+
+Go to `File > Preferences > Settings` (or hit `CTRL + ,` on Windows or `COMMAND + ,` on macOS) and search for _format on save_ then ensure **Editor: Format On Save** is checked.
+
+Congrats, you're ready to go ! Now, on each save, Prettier will format files for you.
+
 <!-- CONTRIBUTING -->
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -113,32 +133,32 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-
 <!-- LICENSE -->
+
 ## License
 
 Distributed under the MIT License. See `LICENSE.md` for more information.
 
-
 <!-- CONTACT -->
+
 ## Contact
 
 Clemissile - [@clemissile](https://twitter.com/clemissile) - ganivetclement@gmail.com
 
 Project Link: [https://github.com/clemissile/clean-vuejs-starter](https://github.com/clemissile/clean-vuejs-starter)
 
-
 <!-- ACKNOWLEDGMENTS -->
+
 ## Acknowledgments
 
-* [Custom CSS Rest](https://www.joshwcomeau.com/css/custom-css-reset/)
-* [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
-* [Choose an Open Source License](https://choosealicense.com)
-* [Img Shields](https://shields.io)
-
+- [Custom CSS Rest](https://www.joshwcomeau.com/css/custom-css-reset/)
+- [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
+- [Choose an Open Source License](https://choosealicense.com)
+- [Img Shields](https://shields.io)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/clemissile/clean-vuejs-starter.svg?style=for-the-badge
 [contributors-url]: https://github.com/clemissile/clean-vuejs-starter/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/clemissile/clean-vuejs-starter.svg?style=for-the-badge
