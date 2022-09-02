@@ -6,7 +6,7 @@ import interceptors from './interceptors';
  * Set base URL
  */
 export const http = axios.create({
-  baseURL: 'https://geo.api.gouv.fr/',
+  baseURL: 'https://geo.api.gouv.fr',
 });
 
 /**

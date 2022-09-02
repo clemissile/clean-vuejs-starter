@@ -3,20 +3,17 @@
     <h1>This is an about page</h1>
 
     <div class="search">
-      <input v-model="params.codePostal" placeholder="Code Postal" />
+      <input v-model="zipCode" placeholder="Code Postal" />
 
-      <button
-        @click.prevent="search"
-        :disabled="params.codePostal.length !== 5"
-      >
+      <button @click.prevent="search" :disabled="zipCode.length !== 5">
         Rechercher
       </button>
     </div>
 
     <div class="results">
       <ul>
-        <li v-for="(v, idx) in villes" :key="idx">
-          {{ v.nom }}
+        <li v-for="(c, idx) in cities" :key="idx">
+          {{ c.nom }}
         </li>
       </ul>
     </div>
@@ -31,25 +28,23 @@ export default {
 
   data() {
     return {
-      params: {
-        codePostal: '',
-      },
+      zipCode: '',
     };
   },
 
   computed: {
     ...mapGetters({
-      villes: 'villes/villes',
+      cities: 'cities/cities',
     }),
   },
 
   methods: {
     ...mapActions({
-      getVilles: 'villes/getVilles',
+      getCitiesByZipCode: 'cities/getCitiesByZipCode',
     }),
 
     search() {
-      this.getVilles(this.params);
+      this.getCitiesByZipCode(this.zipCode);
     },
   },
 };
